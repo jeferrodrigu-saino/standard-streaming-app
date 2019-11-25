@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'stardart-sreaming-app'`, () => {
+  it(`should have as title 'standard-sreaming-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('stardart-sreaming-app');
+    expect(app.title).toEqual('standard-sreaming-app');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('stardart-sreaming-app app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('standard-sreaming-app app is running!');
   });
 });
